@@ -1,0 +1,70 @@
+.menu {font-size: 20px;      font-style:oblique;
+    cursor: pointer;
+    padding: 20px;
+    background-color: white;
+    color: black;
+    position: fixed;
+    left: 10px;
+    z-index: 2000;
+border-radius: 10px 10px;
+list-style: none;
+    display: flex;
+    padding: 20px;
+    border-radius: 10px 10px;
+}
+/* Menu Lateral */
+.fundo {
+    position: fixed;
+    top: 0;
+    left: -250px; /* Fora da tela inicialmente */
+    width: 170px;
+    height: 500vh;
+    background-color:white;
+    transition: left 0.5s;
+    z-index: 1000;
+    border-radius: 10px 10px;
+    padding-top: 20px;
+    margin-bottom: 5px;
+}
+.botão-fechar-X {float: right;
+    position: relative;right: 10px;top: 10px;
+    background: none;
+    border: none;
+    color: black;
+    font-size: 30px;
+    cursor: pointer;
+}
+.animação ul li a:hover {
+    background-color: rgb(255, 255, 255);
+    white-space: nowrap;
+    text-decoration: underline;
+    width: 100px;
+    border-radius: 10px 10px;
+    box-shadow: 5px 5px 5px black;
+    padding: 10px;
+    color: red;
+    text-decoration: none;
+    display: block;
+    border-radius: 10px 10px;
+    margin-bottom: 10px;
+}
+body{background:linear-gradient(to right,white,black,white);text-align: center;justify-content: center;align-items: center;margin: auto;}
+h1{font-size: 30px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-style: oblique;text-shadow: 6px;color: white;text-decoration: underline;}
+h2{font-size: 20px;font-style: inherit;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;text-shadow: 6px;color: blue;}
+p{font-size: 15px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-style: inherit;text-shadow: 6px;color: white;}
+a{font-size: 10px;text-decoration: none;}
+ul{text-align: left;list-style-type: none;}
+dl{padding: 5px;}
+dt{padding: 5px;text-align: left;font-size: 20px;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-style:oblique;text-shadow: 6px;}
+dd{padding: 5px;text-align: left;font-size: 15px;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-style:italic;text-shadow: 6px;}
+.header:hover{transform: scale(0.6);transition: transform(1.01s);}
+.section:hover{transform: scale(0.8);transition: transform(1.01s);}
+.img:hover{transform: scale(0.8);transition: transform(1.06s);}
+.summary:hover{transform: scale(0.5);transition: transform(1.03s);}
+summary{width: 300px;border-radius: 10px 10px;margin: auto;text-shadow: 6px;padding: 10px;}
+thead{font-size: 20px;font-style: oblique;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;text-shadow: 6px;text-align: left;}
+tbody{font-size: 15px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-style: inherit;text-shadow: 6px;text-align: left;}
+tfoot{text-align: left;font-size: 20px;font-family: 'Times New Roman', Times, serif;font-style: inherit;text-shadow: 6px;}
+header{padding: 20px;width: 300px;border-radius: 10px 10px;margin: auto;align-items: center;justify-content: center;text-align: center;}
+section{padding: 20px;width: 300px;border-radius: 10px 10px;margin: auto;align-items: center;justify-content: center;text-align: center;}
+footer{width: 300px;border-radius: 10px 10px;margin: auto;padding: 20px;align-items: center;text-align: center;justify-content: center;}
